@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         texto1 = (TextView) findViewById(R.id.view1);
         boton1 = (Button) findViewById(R.id.siguiente);
-
+        boton1.setOnClickListener(this);
 
 
     }
