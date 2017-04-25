@@ -10,7 +10,8 @@
         android:id="@+id/view1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Christian Arroyave C-Music"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.405"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -19,19 +20,11 @@
         app:layout_constraintVertical_bias="0.062" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/siguiente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteY="147dp"
-        tools:layout_editor_absoluteX="37dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteY="171dp"
-        tools:layout_editor_absoluteX="201dp" />
+        android:text="Siguiente"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="105dp" />
 
 </android.support.constraint.ConstraintLayout>
