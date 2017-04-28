@@ -7,18 +7,105 @@
     tools:context="com.example.c_musicproducciones.proyecto.Main2Activity">
 
     <TextView
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero 1"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <TextView
         android:id="@+id/view2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="C-Music Producciones"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="85dp" />
+        android:text="Numero 2"
+        tools:layout_editor_absoluteY="129dp"
+        tools:layout_editor_absoluteX="43dp" />
+
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteY="61dp"
+        tools:layout_editor_absoluteX="117dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteY="114dp"
+        tools:layout_editor_absoluteX="117dp" />
+
+    <RadioGroup
+        android:id="@+id/grupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="211dp">
+
+        <RadioButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Suma" />
+
+        <RadioButton
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Resta" />
+
+        <RadioButton
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Multiplicacion" />
+
+        <RadioButton
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Division" />
+    </RadioGroup>
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        tools:layout_editor_absoluteY="369dp"
+        tools:layout_editor_absoluteX="79dp" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteY="421dp"
+        tools:layout_editor_absoluteX="84dp" />
 
     <Button
         android:id="@+id/regresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Regresar"
-        tools:layout_editor_absoluteX="260dp"
-        tools:layout_editor_absoluteY="407dp" />
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+
 </android.support.constraint.ConstraintLayout>

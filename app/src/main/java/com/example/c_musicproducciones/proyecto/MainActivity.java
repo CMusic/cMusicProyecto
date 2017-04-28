@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         boton1.setOnClickListener(this);
 
         radioGroup = (RadioGroup)findViewById(R.id.radiog);
-        this.radios();
+
     }
 
     @Override
@@ -39,40 +39,43 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+    public void botones (){
 
-   public void radios ()
-   {
-       radioGroup.setOnClickListener(new RadioGroup.OnCheckedChangeListener() {
-           @Override
-           public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
-
-
-               switch (checkedId)
-               {
-                   case R.id.rbtn1:
-
-                   Toast.makeText(getApplicationContext(),"Preproduccion",Toast.LENGTH_SHORT).show();
-                       return;
-                   case R.id.rbtn2:
-
-                       Toast.makeText(getApplicationContext(),"Produccion",Toast.LENGTH_SHORT).show();
-                       return;
-
-                   case R.id.rbtn3:
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
 
 
-                       Toast.makeText(getApplicationContext(),"Postproduccion",Toast.LENGTH_SHORT).show();
-                       return;
+                switch (checkedId) {
 
-                   default:
-                       break;
-               }
+                    case R.id.rbtn1:
+
+                        Toast.makeText(getApplicationContext(),"PreProduccion",Toast.LENGTH_SHORT).show();;
+                        break;
+
+                    case R.id.rbtn2:
+
+                        Toast.makeText(getApplicationContext(),"Produccion",Toast.LENGTH_SHORT).show();
+                        break;
+
+                    case R.id.rbtn3:
+
+                        Toast.makeText(getApplicationContext(),"PostProduccion",Toast.LENGTH_SHORT).show();
+                        break;
+
+                    default:
+
+                        break;
+
+                }
+
+            }
+        });
+
+
+    }
 
 
 
-           }
-       });
-
-   }
    //
 }
