@@ -63,32 +63,33 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.638"
-        android:layout_marginRight="168dp" />
+        app:layout_constraintVertical_bias="0.683"
+        android:layout_marginRight="251dp" />
 
 
 
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="12dp"
-        android:layout_height="34dp"
-        android:text="      "
+        android:layout_width="88dp"
+        android:layout_height="38dp"
+        android:text="     "
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786"
-        android:layout_marginRight="218dp" />
+        app:layout_constraintVertical_bias="0.689"
+        android:layout_marginRight="126dp" />
 
     <Button
         android:id="@+id/regresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Regresar"
+        android:text="Mostrar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.965"
+        app:layout_constraintVertical_bias="0.904"
         android:layout_marginRight="16dp"/>
 
     <RadioGroup
@@ -148,7 +149,10 @@
             app:layout_constraintVertical_bias="0.935" />
 
 
-    </RadioGroup>
+    </RadioGroup><![CDATA[
+
+    />
 
 
+]]>
 </android.support.constraint.ConstraintLayout>

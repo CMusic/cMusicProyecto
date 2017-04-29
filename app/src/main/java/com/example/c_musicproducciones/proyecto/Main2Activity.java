@@ -43,6 +43,8 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         botonRegresar = (Button) findViewById(R.id.regresar);
         botonRegresar.setOnClickListener(this);
 
+
+
         this.calculadora();
     }
 
@@ -50,11 +52,14 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
 
         if (v.getId() == R.id.regresar) {
-            Intent r = new Intent(this,MainActivity.class);
+            Intent r = new Intent(this,Main3Activity.class);
             startActivity(r);
+
+
         }
 
     }
+
 
     public void calculadora () {
 
@@ -62,8 +67,8 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
 
-                val1 = Integer.parseInt(primer.getText().toString());
-                val2 = Integer.parseInt(segundo.getText().toString());
+                 val1 = Integer.parseInt(primer.getText().toString());
+                 val2 = Integer.parseInt(segundo.getText().toString());
 
 
                 int res =0;
